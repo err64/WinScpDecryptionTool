@@ -1,29 +1,35 @@
-# WinSCP Password Decryptor | WinSCP 密码解密工具
+# WinSCP Password Decryptor (WinSCP 密码解密工具)
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+一个基于 Python 的现代化图形界面工具，用于从 `WinSCP.ini` 配置文件中快速恢复和解密保存的服务器密码。
 
-[English](#english) | [中文说明](#中文说明)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
 
----
+## ✨ 功能特点 (Features)
 
-<a name="english"></a>
-## 🇬🇧 English Description
+* **现代化 UI**: 使用 `CustomTkinter` 构建，支持系统深色/浅色模式，界面清新美观。
+* **拖拽支持**: 直接将 `WinSCP.ini` 文件拖入窗口即可识别。
+* **一键导出**: 支持将解密结果导出为 `.csv` 表格文件（Excel 可直接打开，无乱码）。
+* **双语切换**: 内置中/英文实时切换功能。
+* **双击复制**: 双击列表中的任意一行即可自动复制密码到剪贴板。
+* **数据隐私**: 所有解密过程在本地完成，不上传任何数据。
 
-A modern, user-friendly GUI tool built with Python (CustomTkinter) to recover stored session passwords from WinSCP configuration files (`WinSCP.ini`). 
 
-This tool is particularly useful for IT administrators or users who have forgotten their server passwords but have them saved in WinSCP.
 
-### ✨ Key Features
-* **Modern UI:** Clean interface based on `CustomTkinter`.
-* **Drag & Drop:** Simply drag your `WinSCP.ini` file into the window.
-* **Bilingual Support:** Real-time switching between English and Chinese.
-* **Security Decryption:** Implements the standard WinSCP password decryption algorithm.
-* **CSV Export:** Export retrieved host, username, and password data to a CSV file.
-* **Quick Copy:** Double-click any row to copy the password to the clipboard.
 
-### 📦 Prerequisites
-Ensure you have Python installed. You need to install the following dependencies:
 
-```bash
-pip install customtkinter tkinterdnd2
+A modern, Python-based graphical interface tool for quickly recovering and decrypting saved server passwords from the `WinSCP.ini` configuration file.
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+## ✨ Features
+* **Modern UI**: Built with `CustomTkinter`, supports system dark/light modes, providing a clean and aesthetically pleasing interface.
+
+* **Drag-and-Drop Support**: Simply drag the `WinSCP.ini` file into the window for easy recognition.
+
+* **One-Click Export**: Supports exporting decryption results to a `.csv` spreadsheet file (opens directly in Excel without garbled characters).
+
+* **Bilingual Switching**: Built-in real-time Chinese/English switching function.
+
+* **Double-Click Copy**: Double-click any row in the list to automatically copy the password to the clipboard. * **Data Privacy:** All decryption processes are completed locally, without uploading any data.
